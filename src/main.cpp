@@ -11,7 +11,7 @@ bool solution(int x) {
     bool answer = true;
     int n1 = x;
     int n2 = 0;
-    while(x > 0){
+    while(x > 0){   
         n2 += x%10;
         x /= 10;
     }
