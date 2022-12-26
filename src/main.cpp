@@ -7,23 +7,8 @@
 using namespace std;
 
 
-bool solution(int x) {
-    bool answer = true;
-    int n1 = x;
-    int n2 = 0;
-    while(x > 0){   
-        n2 += x%10;
-        x /= 10;
-    }
-    
-    return n1%n2 == 0;
-}
-
 int main() {
-    ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
-    bool s = true;
-    cout<<s<<!s;
-    s = !s;
-    cout<<s;
+    cout<<"hello world@";
+    cout<<"commit test";
     return 0;
 }
